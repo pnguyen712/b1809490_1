@@ -16,7 +16,7 @@ Insert Employee
     $password=$_POST["password"];
     $MYSQL_ADDON_HOST=getenv('btnvudazzcszlfidqthw-mysql.services.clever-cloud.com');
     $MYSQL_ADDON_PORT=getenv('3306');
-    $MYSQL_ADDON_DB =getenv('btnvudazzcszlfidqthw');
+    $MYSQL_ADDON_BD =getenv('btnvudazzcszlfidqthw');
     $MYSQL_ADDON_USER=getenv('usj4ncmyqyyx4dmp');
     $MYSQL_ADDON_PASSWORD=getenv('yLWLmm89XwPxVdw8HzTY');
     $conn = mysqli_connect($MYSQL_ADDON_HOST,$MYSQL_ADDON_PORT,$MYSQL_ADDON_BD,$MYSQL_ADDON_USER,$MYSQL_ADDON_PASSWORD);
