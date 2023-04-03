@@ -1,11 +1,17 @@
-
+MYSQL_ADDON_DB=""
+MYSQL_ADDON_HOST=""
+MYSQL_ADDON_PASSWORD=""
+MYSQL_ADDON_PORT="3306"
+MYSQL_ADDON_URI=""
+MYSQL_ADDON_USER=""
+MYSQL_ADDON_VERSION="8.0"
 <?php
-$MYSQL_ADDON_HOST=getenv('MYSQL_ADDON_HOST');
-$MYSQL_ADDON_PORT=getenv('MYSQL_ADDON_PORT');
-$MYSQL_ADDON_BD=getenv('MYSQL_ADDON_DB');
-$MYSQL_ADDON_USER=getenv('MYSQL_ADDON_USER');
-$MYSQL_ADDON_PASSWORD=getenv('MYSQL_ADDON_PASSWORD');
-$MYSQL_ADDON_URI=getenv('MYSQL_ADDON_URI');
+$MYSQL_ADDON_HOST=getenv('btnvudazzcszlfidqthw-mysql.services.clever-cloud.com');
+$MYSQL_ADDON_PORT=getenv('3306');
+$MYSQL_ADDON_DB =getenv('btnvudazzcszlfidqthw');
+$MYSQL_ADDON_USER=getenv('usj4ncmyqyyx4dmp');
+$MYSQL_ADDON_PASSWORD=getenv('yLWLmm89XwPxVdw8HzTY');
+$MYSQL_ADDON_URI=getenv('mysql://usj4ncmyqyyx4dmp:yLWLmm89XwPxVdw8HzTY@btnvudazzcszlfidqthw-mysql.services.clever-cloud.com:3306/btnvudazzcszlfidqthw');
 
 echo "$MYSQL_ADDON_URI";
 
