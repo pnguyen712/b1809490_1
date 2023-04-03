@@ -1,10 +1,4 @@
-MYSQL_ADDON_DB=""
-MYSQL_ADDON_HOST=""
-MYSQL_ADDON_PASSWORD=""
-MYSQL_ADDON_PORT="3306"
-MYSQL_ADDON_URI=""
-MYSQL_ADDON_USER=""
-MYSQL_ADDON_VERSION="8.0"
+
 <?php
 $MYSQL_ADDON_HOST=getenv('btnvudazzcszlfidqthw-mysql.services.clever-cloud.com');
 $MYSQL_ADDON_PORT=getenv('3306');
