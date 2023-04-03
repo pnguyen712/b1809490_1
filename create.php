@@ -2,7 +2,7 @@
 <?php
 $MYSQL_ADDON_HOST=getenv('btnvudazzcszlfidqthw-mysql.services.clever-cloud.com');
 $MYSQL_ADDON_PORT=getenv('3306');
-$MYSQL_ADDON_DB =getenv('btnvudazzcszlfidqthw');
+$MYSQL_ADDON_BD =getenv('btnvudazzcszlfidqthw');
 $MYSQL_ADDON_USER=getenv('usj4ncmyqyyx4dmp');
 $MYSQL_ADDON_PASSWORD=getenv('yLWLmm89XwPxVdw8HzTY');
 $MYSQL_ADDON_URI=getenv('mysql://usj4ncmyqyyx4dmp:yLWLmm89XwPxVdw8HzTY@btnvudazzcszlfidqthw-mysql.services.clever-cloud.com:3306/btnvudazzcszlfidqthw');
